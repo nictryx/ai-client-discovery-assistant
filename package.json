@@ -1,7 +1,7 @@
 {
-  "name": "elchai-client-discovery-prototype",
+  "name": "ai-client-discovery-assistant",
   "version": "1.0.0",
-  "description": "Basic working prototype for Elchai Client Discovery Assistant using OpenRouter API.",
+  "description": "AI-powered prototype for analyzing client project requests, generating structured discovery briefs, and supporting human review workflows through the OpenRouter API.",
   "type": "module",
   "scripts": {
     "start": "node server.js",

@@ -1,0 +1,13 @@
+{
+  "name": "elchai-client-discovery-prototype",
+  "version": "1.0.0",
+  "description": "Basic working prototype for Elchai Client Discovery Assistant using OpenRouter API.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

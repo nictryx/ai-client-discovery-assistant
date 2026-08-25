@@ -1,6 +1,6 @@
 # AI Client Discovery Assistant Prototype
 
-The **AI Client Discovery Assistant** helps service-based companies analyze potential client requests submitted through a contact form using AI models accessed through **OpenRouter**.
+The AI Client Discovery Assistant helps service-based companies analyze potential client requests submitted through a contact form using AI models accessed through OpenRouter, such as MiniMax, Qwen, Kimi, and other supported models.
 
 ## Features
 

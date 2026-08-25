@@ -1,0 +1,33 @@
+[
+  {
+    "auditId": "309a9f52-eb6f-4f93-ac45-8fae75d0261d",
+    "timestamp": "2026-08-25T19:18:52.366Z",
+    "briefId": "6a66453d-1765-4bdd-8eb5-bb9446f6e56a",
+    "event": "BRIEF_GENERATED",
+    "reviewerStatus": "Pending Review",
+    "details": "Generated and saved a new client discovery brief using an API call."
+  },
+  {
+    "auditId": "4c996978-f563-4932-b5c7-d91e3f4e4d4f",
+    "timestamp": "2026-08-25T19:04:43.883Z",
+    "briefId": "bee81448-4fa4-4336-b042-752fd229ac18",
+    "event": "BRIEF_GENERATED",
+    "reviewerStatus": "Pending Review",
+    "details": "Generated and saved a new client discovery brief using an API call."
+  },
+  {
+    "auditId": "f556d0d0-98f7-4bba-8ecb-6dbb0184fbd7",
+    "timestamp": "2026-08-25T19:04:09.970Z",
+    "briefId": null,
+    "event": "BRIEFS_RESET",
+    "details": "All saved discovery briefs were cleared from local prototype storage."
+  },
+  {
+    "auditId": "27877d98-6761-4e81-b456-f1070b8451ae",
+    "timestamp": "2026-08-25T19:04:02.678Z",
+    "briefId": "5c3d5c38-a3bc-4d75-8299-d61f4025e2af",
+    "event": "BRIEF_GENERATED",
+    "reviewerStatus": "Pending Review",
+    "details": "Generated and saved a new client discovery brief using an API call."
+  }
+]

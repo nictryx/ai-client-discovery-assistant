@@ -1,1 +1,78 @@
-
+[
+  {
+    "id": "6a66453d-1765-4bdd-8eb5-bb9446f6e56a",
+    "createdAt": "2026-08-25T19:18:52.363Z",
+    "updatedAt": "2026-08-25T19:18:52.363Z",
+    "reviewerStatus": "Pending Review",
+    "modelProvider": "OpenRouter",
+    "model": "minimax/minimax-m2.7:free",
+    "input": {
+      "clientName": "Abdulrahman Hamed",
+      "company": "Prototype",
+      "email": "abdulrahman2002hamed@gmail.com",
+      "projectIdea": "We want to build an AI assistant for our real estate company that can answer customer questions, recommend properties, and connect with our CRM."
+    },
+    "generatedBrief": "1. **Client Problem**\n   - Automate customer support for their real estate company\n   - Provide property recommendations to customers\n   - Connect AI assistant with their existing CRM system\n\n2. **Relevant Service Category**\n   - AI/Chatbot Development\n   - CRM Integration Services\n   - Customer Experience Automation\n\n3. **Suggested Departments Involved**\n   - Engineering\n   - IT/Infrastructure\n   - Product\n\n4. **Missing Questions to Ask the Client**\n   - Which CRM platform do you currently use?\n   - What is the approximate volume of customer queries you receive?\n   - What property data/inventory do you have available for recommendations?\n   - Which platforms should the AI assistant be deployed on (website, app, messaging)?\n   - Who will manage and train the AI assistant after launch?\n\n5. **Risk Flags**\n   - CRM integration complexity depends on their current system\n   - Property recommendation accuracy requires quality data\n   - AI response quality depends on training data availability\n   - User adoption may be low without proper onboarding\n\n6. **Suggested Next Step**\n   - Schedule discovery call to understand their current CRM system and data infrastructure\n\n7. **Short Internal Discovery Brief**\n   - Client wants an AI assistant for their real estate company that answers customer questions, recommends properties, and integrates with their CRM. This is an AI automation project with integration components. We need to assess their existing systems before defining scope.\n\n8. **Human Review Note**\n   - This is a standard AI chatbot project with CRM integration requirements. Primary discovery focus should be on their current tech stack and available data. Low complexity entry point if CRM integration is straightforward.",
+    "usage": {
+      "prompt_tokens": 386,
+      "completion_tokens": 723,
+      "total_tokens": 1109,
+      "cost": 0,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0,
+        "upstream_inference_prompt_cost": 0,
+        "upstream_inference_completions_cost": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 509,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "id": "bee81448-4fa4-4336-b042-752fd229ac18",
+    "createdAt": "2026-08-25T19:04:43.880Z",
+    "updatedAt": "2026-08-25T19:04:43.880Z",
+    "reviewerStatus": "Pending Review",
+    "modelProvider": "OpenRouter",
+    "model": "cohere/north-mini-code:free",
+    "input": {
+      "clientName": "Abdulrahman Hamed",
+      "company": "Prototype",
+      "email": "abdulrahman2002hamed@gmail.com",
+      "projectIdea": "We want to build an AI assistant for our real estate company that can answer customer questions, recommend properties, and connect with our CRM."
+    },
+    "generatedBrief": "1. **Client Problem**  \n- Build an AI assistant for a real‑estate firm.  \n- Must answer customer queries, recommend properties, and integrate with existing CRM.\n\n2. **Relevant Service Category**  \n- AI/ML chatbot development.  \n- CRM integration & data pipeline.  \n- Real‑estate property recommendation engine.\n\n3. **Suggested Departments Involved**  \n- **Engineering** – AI/ML model, backend services, API development.  \n- **IT/Infrastructure** – Cloud hosting, data storage, security.  \n- **Product** – UX/UI, conversation flow, feature prioritization.  \n- **Strategy** – Use‑case validation, ROI alignment.\n\n4. **Missing Questions to Ask the Client**  \n- What types of customer questions should the assistant handle (e.g., property specs, pricing, availability)?  \n- Which CRM system are you using, and what data fields need to be exposed?  \n- Do you have existing property data sources or will new listings be ingested manually?  \n- What language(s) and regional regulations must the assistant comply with?  \n- What is the expected user volume and response time target?\n\n5. **Risk Flags**  \n- Data privacy & compliance when exposing customer/CRM data.  \n- Complexity of real‑time property recommendation logic.  \n- Integration latency between AI assistant and CRM.  \n- Model accuracy for diverse property queries.\n\n6. **Suggested Next Step**  \n- Schedule a discovery call to validate scope, data sources, and integration approach.\n\n7. **Short Internal Discovery Brief**  \n- Client seeks an AI assistant for real‑estate inquiries, property recommendations, and CRM connectivity.  \n- Need to clarify query types, CRM integration points, data sources, and compliance requirements.  \n- Prioritize defining functional scope and technical integration plan.\n\n8. **Human Review Note**  \n- Verify data handling policies before proceeding.  \n- Confirm alignment of AI model accuracy with business expectations.",
+    "usage": {
+      "prompt_tokens": 371,
+      "completion_tokens": 599,
+      "total_tokens": 970,
+      "cost": 0,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0,
+        "upstream_inference_prompt_cost": 0,
+        "upstream_inference_completions_cost": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 282,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  }
+]

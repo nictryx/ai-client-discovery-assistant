@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Client Discovery Assistant</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <section class="hero card">
+      <div>
+        <p class="eyebrow">OpenRouter API + Human Review Workflow</p>
+        <h1>AI Client Discovery Assistant</h1>
+        <p class="hero-text">Turn raw client project ideas into structured internal discovery briefs before the first client call.</p>
+      </div>
+      <div class="status-pill">Prototype</div>
+    </section>
+
+    <section class="grid">
+      <section class="card clients-card">
+        <div class="section-title">
+          <p class="eyebrow">Connected Clients</p>
+          <h2>Client Requests</h2>
+          <p class="hint">Select one client request, review the submitted details, then analyze it from the AI section.</p>
+        </div>
+
+        <div id="clientRequestList" class="client-request-list"></div>
+      </section>
+
+      <section class="card output-card">
+        <div class="section-title row-title">
+          <div>
+            <p class="eyebrow">AI Section</p>
+            <h2>Internal Discovery Brief</h2>
+          </div>
+          <div class="action-row">
+            <button id="analyzeBtn" type="button">Analyze Selected Request</button>
+            <button id="saveEditedBriefBtn" class="secondary" type="button" disabled>Save Edited Brief</button>
+          </div>
+        </div>
+
+        <div id="selectionWarning" class="selection-warning hidden">Please pick which client request you want to analyze.</div>
+        <div id="currentMeta" class="meta-box">No brief generated yet.</div>
+        <p class="hint edit-hint">The analyzed response below is editable, so the reviewer can correct or refine it before saving.</p>
+        <textarea id="briefOutput" class="brief-output" spellcheck="true">Select a client request, then click Analyze Selected Request.</textarea>
+      </section>
+    </section>
+
+    <section class="card">
+      <div class="section-title row-title">
+        <div>
+          <p class="eyebrow">Saved Briefs</p>
+          <h2>Review Queue</h2>
+        </div>
+        <div class="action-row">
+          <button id="refreshBtn" class="secondary" type="button">Refresh</button>
+          <button id="resetBriefsBtn" class="danger-btn" type="button">Reset Briefs</button>
+        </div>
+      </div>
+      <div id="briefList" class="list"></div>
+    </section>
+
+    <section class="card">
+      <div class="section-title row-title">
+        <div>
+          <p class="eyebrow">Audit Log</p>
+          <h2>Activity History</h2>
+        </div>
+        <button id="resetAuditBtn" class="danger-btn" type="button">Reset Audit Log</button>
+      </div>
+      <div id="auditLog" class="audit"></div>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

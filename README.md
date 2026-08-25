@@ -38,14 +38,14 @@ If `OPENROUTER_MODEL` is set in PowerShell, that model is used instead.
 * Node.js
 * OpenRouter API
 * JSON file storage
-* Minimax M2 (Default AI model)
+* MiniMax M2 (Default AI model)
 
 ## Run
 
 ```powershell
 $env:OPENROUTER_API_KEY="your_api_key"
 
-# Optional: choose any OpenRouter model
+# Optional: choose any OpenRouter model 
 $env:OPENROUTER_MODEL="provider/model-name"
 
 npm start

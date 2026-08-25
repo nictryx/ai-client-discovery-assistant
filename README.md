@@ -1,58 +1,58 @@
-# **# AI Client Discovery Assistant Prototype**
+# AI Client Discovery Assistant Prototype
 
-**The AI Client Discovery Assistant helps companies that provide a centain type of service analyze potential client requests submitted through a contact form using open-weight AI models accessed through OpenRouter, such as Kimi, Qwen, MiniMax, etc.**
+The **AI Client Discovery Assistant** helps service-based companies analyze potential client requests submitted through a contact form using AI models accessed through **OpenRouter**.
 
-**For this prototype, MiniMax M3 is used as the primary model because it is well suited for multi-step reasoning, long-context analysis, planning, and agentic workflows. This makes it a good fit for analyzing unstructured client requests, identifying missing information, highlighting risks, and producing a structured internal discovery brief.**
+## Features
 
-**## Features**
+* Connected client request cards with one active request at a time
+* OpenRouter API integration for AI analysis
+* Saved generated discovery briefs
+* Editable AI-generated brief
+* Created and modified timestamps
+* Reviewer status updates
+* Audit log for generation, edits, errors, resets, and status changes
+* Reset buttons for saved briefs and audit logs
 
-**- Connected client request cards with one active request at a time**
+## How It Works
 
-**- OpenRouter API integration for AI analysis**
+1. The company receives multiple potential client requests.
+2. The reviewer selects one request.
+3. The backend sends the request to OpenRouter.
+4. The AI generates a structured internal discovery brief.
+5. The brief is saved in `data/briefs.json`.
+6. Each brief starts with `Pending Review`.
+7. The reviewer can edit the brief and update its status.
+8. Activity is recorded in `data/audit-log.json`.
 
-**- MiniMax M3 as the selected model for the prototype**
+## Model Configuration
 
-**- Saved generated discovery briefs**
+The prototype defaults to `minimax/minimax-m2.7:free`. 
 
-**- Editable AI-generated brief with a Save Edited Brief action**
+If `OPENROUTER_MODEL` is set in PowerShell, that model is used instead.
 
-**- Created and modified timestamps for each generated brief**
+## Tech Stack
 
-**- Reviewer status updates**
+* HTML
+* CSS
+* JavaScript
+* Node.js
+* OpenRouter API
+* JSON file storage
+* Minimax M2
 
-**- Audit log entries for generated briefs, edited briefs, errors, and status changes**
+## Run
 
-**- Reset buttons for saved briefs and audit logs**
+```powershell
+$env:OPENROUTER_API_KEY="your_api_key"
 
-**## How It Works**
+# Optional: choose any OpenRouter model
+$env:OPENROUTER_MODEL="provider/model-name"
 
-**1. The company receives multiple potential client requests.**
-
-**2. The reviewer selects one client request.**
-
-**3. The backend sends the selected request to MiniMax M3 through OpenRouter.**
-
-**4. MiniMax M3 analyzes the request and generates a structured internal discovery brief.**
-
-**5. The generated brief is saved in** `data/briefs.json`**.**
-
-**6. Each brief receives a timestamp and starts with a** `Pending Review` **status.**
-
-**7. The reviewer can edit the generated brief and update its review status.**
-
-**8. Generation, edits, errors, resets, and status changes are recorded in** `data/audit-log.json`**.**
-
-**## Model Configuration**
-
-**The prototype uses:**
-
-**```text**
-
-**minimax/minimax-m3**
-
-but for testing ... **nvidia/nemotron-3-nano-omni** can be used by replacing the const OPENROUTER_MODEL to : 
-
-```javascript
-const OPENROUTER_MODEL = process.env.OPENROUTER_MODEL || 'openrouter/free';
+npm start
 ```
 
+Then open:
+
+```text
+http://localhost:3000
+```

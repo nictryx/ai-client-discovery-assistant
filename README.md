@@ -38,7 +38,7 @@ If `OPENROUTER_MODEL` is set in PowerShell, that model is used instead.
 * Node.js
 * OpenRouter API
 * JSON file storage
-* Minimax M2 (Deafault AI model)
+* Minimax M2 (Default AI model)
 
 ## Run
 

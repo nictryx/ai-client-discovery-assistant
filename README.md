@@ -59,7 +59,5 @@ http://localhost:3000
 
 ## Project Goal
 
-## Project Goal
-
-The goal of this project is to showcase how AI models can be integrated into a company’s contact forms to analyze project requests submitted by potential clients and transform the information into structured discovery briefs, helping human reviewers understand client needs and prepare for the first meeting between the team and the client.
+The goal of this project is to showcase how AI models can be integrated into a company’s contact forms to analyze project requests submitted by potential clients and helping human reviewers understand client needs and prepare for the first meeting between the team and the client.
 

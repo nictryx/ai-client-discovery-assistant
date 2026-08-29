@@ -56,3 +56,7 @@ Then open:
 ```text
 http://localhost:3000
 ```
+
+## Project Goal
+
+The goal of this project is to develop an AI-powered assistant that transforms client project requests into structured discovery briefs, helping teams clarify requirements, identify missing information, and support efficient human review and decision-making.
